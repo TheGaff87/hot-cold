@@ -74,7 +74,7 @@ export default class GuessInterface extends React.Component {
         return (
             <form>
                 <h1>Hot or Cold Guessing Game</h1>
-                <h3>Make a guess!</h3>
+                <h2>Make a guess!</h2>
                 <Feedback id='feedback' text={this.state.currentFeedback}>
                 </Feedback>
                 <NumberInput id='guess-field' min={1} max={100} value={this.state.currentGuess}
