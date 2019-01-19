@@ -1,14 +1,72 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  border: 1px black solid;
+  border-radius: 10px
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.feedback, .guesses {
+  color: red;
+}
+
+.feedback {
+  font-size: 1.25em;
+}
+
+.guesses {
+  padding-bottom: 1em;
+  border-bottom: 1px black solid;
+}
+
+.submit {
+    border: 1px blue solid;
+    background-color: white;
+    color: blue;
+    padding: .5em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    font-size: 1.05em;
+}
+
+.new-game {
+    border: 1px blue solid;
+    background-color: blue;
+    color: white;
+    padding: .5em;
+    border-radius: 10px;
+    margin-top: 2em;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+}
+
+.guess-field {
+  margin-bottom: 2em;
+  height: 20px;
+  width: 50px;
+  border: 1px black solid;
+}
+
+h1 {
+  color: red;
+}
+
+h3 {
+  color: blue;
+}
+
+.guesses span {
+  border: 1px black solid;
+  margin: .25em;
+  padding: 2px;
 }

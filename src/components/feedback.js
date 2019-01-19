@@ -3,13 +3,7 @@ import React from 'react';
 export default function Feedback(props) {
     return (
         <div className="feedback">
-            <feedback id={props.id}>
-                {props.text}
-            </feedback>
+            <p>Your guess is: {props.text}</p>
         </div>
     )
-}
-
-Feedback.defaultProps = {
-    text: "Make a guess"
 }
