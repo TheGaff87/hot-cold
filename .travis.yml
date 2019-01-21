@@ -1,0 +1,14 @@
+language: node_js
+node_js: node
+cache:
+  directories:
+  - node_modules
+env:
+- CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: oJX+4KNfOj/TX9lbvsdvRBECvcttmReUsLSvAVuakb5EOGM763O09ty5eS+eFJnMLDCkbbbDc7BZ/eotRBNSK/gobQ0QubKboAQW8v6zPUnu8w7d3f9FXvg4wswxHyzEi0YVSPMnZD0gkb9tBTQkic5G8KysrFk6fKm4jDl4+2Iq/fQ2w+iy9zrZ/2yTAr1HN86GqIK2pqc30rMaH9i4TV5bYOnwhry6GA9TAmmCgE1Vzo74oDlHnHM+so2x0w7aLGQvpCRGEtkp4qA1U3SchcTKm2NnVfhH5VTlOlmwRKVD0ZcVvtEEqCUxV0JyBPTVmlHN0Kas3QOIUhheWLpHCHLXEsPn9LgKoKcJW9vgOlbwsLf4/51fb2o/skIRE58GsPw+DVpPkKJkOLCvTQotgSBLkHqVbEUuECzaxgBOTbQ08k2mdIUPNsOgIqnk2IIpSfZ7EYIqhriec2SxUpEh2QYSrym9XtU1vJC9MFRtp4dSihBveBW6paf5WQahLKXKE4f0sEqpcTfyPxKQjglni/hKAxqUUAtOf5xK0Oc0fjMWzjsJ7/8TzanDN4k85JlLJVEt7g5e+EvG8+3x1KI4bCkeZ4zYX4Rnqn37Z0sQc2VwXwrOyJNOe3D5ljTO3xDjLLbdeqcTP70qLDoQ96O7RdL+k/fJANdUivIxMRw0V2w=
+  app: pure-oasis-51047
+  on:
+    repo: TheGaff87/hot-cold
